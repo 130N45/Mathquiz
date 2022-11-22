@@ -69,7 +69,7 @@ public class MatheQuiz {
     };
     
     //Fragen Arrays in eine neues Array speichern
-    String Frageliste[][] = {
+    String[][] Frageliste = {
     Frage,Frage1,Frage2,Frage3,Frage4,Frage5
     };
     
