@@ -19,7 +19,7 @@ public class MatheQuiz {
     
     int Punktestand = 0;
     
-    // 6 Fragen als Array
+    // 6 Fragen
     String[] Frage = {
     "Wie viel ergibt 25 % 12?",
     "1. 1",
@@ -99,9 +99,6 @@ public class MatheQuiz {
       }
       catch (IOException e) {
         System.out.println("Falsche Eingabe!");
-      }
-      finally {
-        System.out.println("Das war gut!");
       }
     }
     System.out.println("Du hast " + Punktestand + " von 3 Fragen richtig.");
