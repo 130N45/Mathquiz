@@ -1,9 +1,7 @@
 <>Praktikumsaufgabe im Zeitraum vom<>   
 <>21.11.2022 - 16.12.2022<>
 
-Die Aufgabe ist es ein Mathe Quiz zu erstellen, bei den man auswählen kann, 
-ob es leicht, mittel oder schwer sein soll.
+The program has now been expanded with a selection function, 
+where you can choose the difficulty of the tasks and also decide what you want to calculate with, e.g. B. Adding, dividing, subtracting, multiplying.
 
-Demnach sollen sowohl additions, multiplikations, divisions und subtraktions Aufgaben erscheinen. (Wählbar)
-
-Jenach Schwierigkeitsgrad, sollen die jeweiligen Rechenmethoden vermischt werden. (Höhere Zahlen)
+After you have selected your settings, you can now answer/calculate 5 questions about them.
