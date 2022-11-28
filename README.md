@@ -4,11 +4,6 @@
 Die Aufgabe ist es ein Mathe Quiz zu erstellen, bei den man auswählen kann, 
 ob es leicht, mittel oder schwer sein soll.
 
-Danach sollen sowohl Additions, Multiplikations und Divisions Aufgaben erscheinen.
+Demnach sollen sowohl additions, multiplikations, divisions und subtraktions Aufgaben erscheinen. (Wählbar)
 
-Jenach Schwierigkeitsgrad, sollen die jeweiligen Rechenmethoden gemischt vorkommen.
-
-
-Aktuelle Version:
-
-Einfaches Quiz mit Fragen als Array (Leicht)
+Jenach Schwierigkeitsgrad, sollen die jeweiligen Rechenmethoden vermischt werden. (Höhere Zahlen)
