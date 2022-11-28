@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.gui.Main">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="3" bottom="25" right="25"/>
+    <constraints>
+      <xy x="16" y="20" width="977" height="829"/>
+    </constraints>
+    <properties>
+      <font name="Courier New" style="1"/>
+      <name value="MatheQuizPanel"/>
+    </properties>
+    <border type="bevel-lowered" title="Mathe Quiz" title-justification="2" title-position="2">
+      <font name="Cooper Black" size="16"/>
+      <title-color color="-65516"/>
+    </border>
+    <children>
+      <hspacer id="959c">
+        <constraints>
+          <grid row="1" column="0" row-span="6" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="bb567" class="javax.swing.JButton" binding="checkAnswerBtn">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Bestätigen"/>
+        </properties>
+      </component>
+      <component id="82f7f" class="javax.swing.JTextField" binding="input">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="7ed3e">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="f7194" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Schwierigkeitsgrad" title-justification="2"/>
+        <children>
+          <component id="5044" class="javax.swing.JRadioButton" binding="RBEasy">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Einfach"/>
+            </properties>
+          </component>
+          <component id="6d97d" class="javax.swing.JRadioButton" binding="RBMedium">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Mittel"/>
+            </properties>
+          </component>
+          <component id="4eb9c" class="javax.swing.JRadioButton" binding="RBHard">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Schwer"/>
+            </properties>
+          </component>
+          <component id="762f7" class="javax.swing.JRadioButton" binding="RBAdd">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="10"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Addieren"/>
+            </properties>
+          </component>
+          <component id="62c83" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="&lt;--Operand--&gt;"/>
+            </properties>
+          </component>
+          <component id="41a2f" class="javax.swing.JRadioButton" binding="RBMMulti">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Multiplizieren"/>
+            </properties>
+          </component>
+          <component id="455a9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="&lt;--Operand--&gt;"/>
+            </properties>
+          </component>
+          <component id="abb6b" class="javax.swing.JRadioButton" binding="RBSub">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Subtrahieren"/>
+            </properties>
+          </component>
+          <component id="cab13" class="javax.swing.JRadioButton" binding="RBDiv">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Dividieren"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="2af51" class="javax.swing.JLabel" binding="questionLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Willkommen!"/>
+        </properties>
+      </component>
+      <component id="e05b8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="3389c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="com/gui/images/matekkviz_4k.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="56981" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-65534"/>
+          <text value="by Leon, Fenja"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="level">
+      <member id="ae709"/>
+      <member id="955fa"/>
+      <member id="d8f1e"/>
+    </group>
+  </buttonGroups>
+</form>
